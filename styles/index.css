@@ -1,0 +1,249 @@
+*{
+    margin:0;
+    padding:0;
+    
+}
+.head{
+    width:auto;
+    height:auto;
+    background-color: black;
+    
+}
+nav{
+  display: flex;
+  padding:0 10px;
+  border:none;
+  align-items: center;
+  
+  
+}
+nav h3{
+    color:yellow;
+    font-size: 30px;
+    margin-left:70px;
+    
+}
+nav .navbar{
+    justify-content: space-between;
+    margin:20px;
+    align-items: center;
+    margin-left:570px;
+    
+   
+    
+    
+}
+nav .navbar ul{
+    display: flex;
+    
+    
+}
+nav .navbar ul li{
+   margin-left:44%;
+   list-style: none;
+   
+}
+nav .navbar ul li a{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bolder;
+    color:white;
+    
+}
+nav .navbar ul li a:hover{
+    color:yellow;
+    
+}
+.head .banner{
+    display:flex;
+    margin:15px 50px;
+    padding:15px 0 0 30px;
+    padding-top:10px;
+}
+.head .banner .welcome{
+    padding:100px 30px 30px 0 ;
+    
+    
+}
+.head .banner .welcome h1{
+    color:yellow;
+    font-size: 50px;
+    
+}
+.head .banner p{
+    color:white;
+}
+.head .banner button{
+    background-color: brown;
+    width:30%;
+    height:30px;
+    border:none;
+    border-radius: 20px;
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: bolder;
+    color:white;
+}
+.head .banner img{
+    height:400px;
+    width:600px;
+    padding-top:-20px;
+   
+}
+.main{
+    background-color:black;
+    width:auto;
+    height:auto;
+    margin-top: -25px;
+}
+.main .about{
+    display: flex;
+    padding:80px;
+}
+.main .about img{
+    width:300px;
+    height:300px;
+    border:none;
+    border-radius: 800px;
+}
+.main .about .aboutme h3{
+    background-color: yellow;
+    margin-left:30px;
+    text-align: center;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    width:200px;
+}
+.main .about .aboutme p{
+    color:white;
+    padding:30px;
+    font-size: 20px;
+}
+.services{
+    padding:10px 80px;
+}
+.services h3{
+    color:black;
+    background-color: yellow;
+    width:150px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+.services p{
+    color:white;
+    font-size: 30px;
+}
+.work{
+    display: flex;
+}
+.webdev{
+    height: 600px;
+    width:50% ;
+    
+    border-radius:20px;
+}
+.webdev img{
+    height: 280px;
+    width:100%;
+    border-radius:20px;
+    border:none;
+    
+}
+.webdev h4{
+    color:yellow;
+    padding-top:10px;
+    margin-left:20px;
+}
+.webapp{
+    height: 600px;
+    width:50% ;
+    
+    margin-left:20px;
+    border-radius:20px;
+   
+}
+.webapp img{
+    height: 280px;
+    width:100% ;
+    border-radius:20px; 
+    border:none;
+    
+}
+.webapp h4{
+    color:yellow;
+    padding-top:10px;
+    margin-left:20px;
+}
+.connect{
+    padding-top:5px;
+    padding:20px 80px;
+}
+.contact{
+    display: flex;
+}
+.contactus{
+    width:100%;
+}
+.contactus h3{
+    color:black;
+    background-color: yellow;
+    width:200px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+.contactus p{
+    color:white;
+    font-size: 15px;
+}
+.contactus .name{
+    width:250px;
+    border:none;
+    border-radius: 5px;
+    
+}
+.contactus .email{
+    width:250px;
+    margin-left:30px;
+    border:none;
+    border-radius: 5px;
+    
+}
+.contactus .message{
+    width:530px;
+    height:200px;
+    margin-top:20px;
+    border:none;
+    border-radius: 5px;
+    border-bottom-right-radius: 0;
+    
+}
+.contactus button{
+    background-color: red;
+    color:white;
+    border:none;
+    margin-left:430.5px;
+    width:100px;
+    border-bottom-left-radius: 5px;
+    margin-top:5px;
+
+}
+.address{
+    
+    width:100%;
+    height:380px;
+    margin-left:100px;
+    list-style: none;
+    text-decoration: none;
+}
+address ul li{
+    list-style: none;
+}
+.address h5{
+    color:yellow;
+}
+.address p{
+    color:white;
+    font-size: 30px;
+}
+.icon{
+    padding:30px;
+}
